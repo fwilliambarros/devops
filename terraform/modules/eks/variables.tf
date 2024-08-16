@@ -1,19 +1,19 @@
 variable "vpc_id" {
-  description = "The type of instance to create"
+  description = "Change VPC ID"
   type        = string
 }
 
 variable "subnet_id" {
-  description = "The type of instance to create"
+  description = "Change Subnet ID"
   type        = list(string)
 }
 
 variable "control_plane_subnet_ids" {
-  description = "The type of instance to create"
+  description = "Change control plane subnet ID"
   type        = "string"
 }
 
 variable "principal_arn" {
-  description = "The type of instance to create"
+  description = "Change principal arn"
   type        = string
 }
