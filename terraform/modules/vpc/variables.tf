@@ -14,21 +14,21 @@ variable "private_subnets" {
 }
 
 variable "public_subnets" {
-  description = "The name of the database"
+  description = "Public subnet list"
   type        = list(string)
 }
 
 variable "enable_nat_gateway" {
-  description = "The name of the database"
+  description = "Enable nat gateway"
   type        = bool
 }
 
 variable "enable_vpn_gateway" {
-  description = "The name of the database"
+  description = "Enable VPN gateway"
   type        = bool
 }
 
 variable "environment" {
-  description = "The name of the database"
+  description = "change environment"
   type        = string
 }
